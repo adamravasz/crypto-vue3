@@ -1,5 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
+import "./lib/axios"
+import router from  "./lib/router"
 
-createApp(App).mount('#app')
+const app = createApp(App)
+
+app.use(router)
+
+app.mount('#app')
