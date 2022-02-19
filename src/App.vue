@@ -1,6 +1,6 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-  <router-view></router-view>
+  <div class="h-12 justify-center border-b flex items-center">Adam's coins</div>
+  <div class="mx-auto max-w-screen-sm">
+    <router-view></router-view>
+  </div>
 </template>
